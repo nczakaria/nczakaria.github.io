@@ -24,9 +24,10 @@ const adecoration = "none";
 // const ahoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
-const menucolor = accentcolor;
+const menucolor = basecolor;
 const menufontsize = "14pt";
 const menudecoration = "none";
+// const menuhover = accentcolor;
 // const menuhoverduration = "0.3s";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
