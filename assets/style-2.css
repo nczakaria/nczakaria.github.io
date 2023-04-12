@@ -79,6 +79,12 @@ a:hover {
 
 }
 
+#demobox {
+  background-color: #cfc ;
+  padding: 10px ;
+  border: 1px solid green ;
+}
+
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
