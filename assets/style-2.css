@@ -79,6 +79,19 @@ a:hover {
 
 }
 
+.image-container {
+    overflow: hidden; /* To clear the float */
+}
+.image-container div {
+    float: left;
+    margin-right: 10px; /* Adds spacing between divs */
+}
+.image-container img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover; /* Ensures the image fits within the 50x50 box */
+}
+
 #demobox {
   background-color: #cfc ;
   padding: 10px ;
