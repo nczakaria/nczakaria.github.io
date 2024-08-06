@@ -4,8 +4,8 @@ const fontweights = [300, 400]
 
 // Color properties
 const basecolor = "#5f5f5f";
-const accentcolor = "#0e3a7a";
-const highlightcolor = "#111";
+const accentcolor = "#4b73d2";
+const highlightcolor = "#4b73d2";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -24,7 +24,7 @@ const adecoration = "none";
 // const ahoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
-const menucolor = "#0e3a7a";
+const menucolor = "#4b73d2";
 const menufontsize = "14pt";
 const menudecoration = "none";
 // const menuhover = accentcolor;

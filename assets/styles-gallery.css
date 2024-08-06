@@ -1,0 +1,28 @@
+body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    left: 5%;
+
+}
+
+.thumbnailUrl {
+    width: 100px;
+    height: 75px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.preview {
+    width: auto;
+    text-align: center;
+}
+
+
+
