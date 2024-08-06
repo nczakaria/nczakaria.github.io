@@ -80,8 +80,8 @@ const images = [
     thumbnailUrl: "./gallery/singapore2.jpg"
     },
     { 
-    previewUrl: "./gallery/bridgePA.JPG",
-    thumbnailUrl: "./gallery/bridgePA.JPG"
+    previewUrl: "./gallery/bridgePA.jpg",
+    thumbnailUrl: "./gallery/bridgePA.jpg"
     },
     { 
     previewUrl: "./gallery/austin.jpg",
