@@ -20,6 +20,10 @@ const images = [
     thumbnailUrl: "./gallery/tuftedTitmouse.jpg"
     },
     { 
+    previewUrl: "./gallery/swan.jpg",
+    thumbnailUrl: "./gallery/swan.jpg"
+    },
+    { 
     previewUrl: "./gallery/blueHeron.jpg",
     thumbnailUrl: "./gallery/blueHeron.jpg"
     },
@@ -80,12 +84,32 @@ const images = [
     thumbnailUrl: "./gallery/singapore2.jpg"
     },
     { 
+    previewUrl: "./gallery/malaysia.jpg",
+    thumbnailUrl: "./gallery/malaysia.jpg"
+    },
+    { 
+    previewUrl: "./gallery/malaysia2.jpg",
+    thumbnailUrl: "./gallery/malaysia2.jpg"
+    },
+    { 
+    previewUrl: "./gallery/malaysia3.jpg",
+    thumbnailUrl: "./gallery/malaysia3.jpg"
+    },
+    { 
     previewUrl: "./gallery/bridgePA.jpg",
     thumbnailUrl: "./gallery/bridgePA.jpg"
     },
     { 
     previewUrl: "./gallery/austin.jpg",
     thumbnailUrl: "./gallery/austin.jpg"
+    },
+    { 
+    previewUrl: "./gallery/london.jpg",
+    thumbnailUrl: "./gallery/london.jpg"
+    },
+    { 
+    previewUrl: "./gallery/london2.jpg",
+    thumbnailUrl: "./gallery/london2.jpg"
     },
     { 
     previewUrl: "./gallery/niagaraFalls.jpg",
