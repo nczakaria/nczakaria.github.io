@@ -1,5 +1,9 @@
 const images = [ 
     { 
+    previewUrl: "./gallery/redneckGrebe.jpg",
+    thumbnailUrl: "./gallery/redneckGrebe.jpg"
+    },
+    { 
     previewUrl: "./gallery/easternKingbird.jpg",
     thumbnailUrl: "./gallery/easternKingbird.jpg"
     },
