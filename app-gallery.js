@@ -1,7 +1,7 @@
 const images = [ 
     { 
-    previewUrl: "./gallery/blueHeron3.jpg",
-    thumbnailUrl: "./gallery/blueHeron3.jpg"
+    previewUrl: "./gallery/blueHeronStar.jpg",
+    thumbnailUrl: "./gallery/blueHeronStar.jpg"
     },
     { 
     previewUrl: "./gallery/swan.jpg",
