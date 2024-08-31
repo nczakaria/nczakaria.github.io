@@ -4,18 +4,6 @@ const images = [
     thumbnailUrl: "./gallery/blueHeron3.jpg"
     },
     { 
-    previewUrl: "./gallery/blueHeron.jpg",
-    thumbnailUrl: "./gallery/blueHeron.jpg"
-    },
-    { 
-    previewUrl: "./gallery/blueHeron2.jpg",
-    thumbnailUrl: "./gallery/blueHeron2.jpg"
-    },
-    { 
-    previewUrl: "./gallery/swan2.jpg",
-    thumbnailUrl: "./gallery/swan2.jpg"
-    },
-    { 
     previewUrl: "./gallery/swan.jpg",
     thumbnailUrl: "./gallery/swan.jpg"
     },
