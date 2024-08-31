@@ -1,5 +1,25 @@
 const images = [ 
     { 
+    previewUrl: "./gallery/blueHeron3.jpg",
+    thumbnailUrl: "./gallery/blueHeron3.jpg"
+    },
+    { 
+    previewUrl: "./gallery/blueHeron.jpg",
+    thumbnailUrl: "./gallery/blueHeron.jpg"
+    },
+    { 
+    previewUrl: "./gallery/blueHeron2.jpg",
+    thumbnailUrl: "./gallery/blueHeron2.jpg"
+    },
+    { 
+    previewUrl: "./gallery/swan2.jpg",
+    thumbnailUrl: "./gallery/swan2.jpg"
+    },
+    { 
+    previewUrl: "./gallery/swan.jpg",
+    thumbnailUrl: "./gallery/swan.jpg"
+    },
+    { 
     previewUrl: "./gallery/redneckGrebe.jpg",
     thumbnailUrl: "./gallery/redneckGrebe.jpg"
     },
@@ -22,18 +42,6 @@ const images = [
     { 
     previewUrl: "./gallery/tuftedTitmouse.jpg",
     thumbnailUrl: "./gallery/tuftedTitmouse.jpg"
-    },
-    { 
-    previewUrl: "./gallery/swan.jpg",
-    thumbnailUrl: "./gallery/swan.jpg"
-    },
-    { 
-    previewUrl: "./gallery/blueHeron.jpg",
-    thumbnailUrl: "./gallery/blueHeron.jpg"
-    },
-    { 
-    previewUrl: "./gallery/blueHeron2.jpg",
-    thumbnailUrl: "./gallery/blueHeron2.jpg"
     },
     { 
     previewUrl: "./gallery/baldEagle.jpg",
