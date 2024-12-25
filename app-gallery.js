@@ -68,14 +68,6 @@ const images = [
     thumbnailUrl: "./gallery/dollySods.jpg"
     },
     { 
-    previewUrl: "./gallery/deerRun.jpg",
-    thumbnailUrl: "./gallery/deerRun.jpg"
-    },
-    { 
-    previewUrl: "./gallery/deerRun2.jpg",
-    thumbnailUrl: "./gallery/deerRun2.jpg"
-    },
-    { 
     previewUrl: "./gallery/singapore.jpg",
     thumbnailUrl: "./gallery/singapore.jpg"
     },
