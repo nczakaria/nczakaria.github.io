@@ -18,27 +18,45 @@
     <link rel="stylesheet" href="assets/style-2.css">
       
     <title>Camellia Zakaria</title>
+
+    <style>
+      #image-container {
+        width: 200px;
+        cursor: pointer;
+        border: 2px solid #ccc;
+        display: inline-block;
+      }
+      #image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <div class="container pt-5 allstuffp">
         <div class="row pt-5 allstuff">
             <div class="col-md-4 pt-5">
                 <div class="fixed-posi">
-                <p class="name">Camellia Zakaria</p>
-                <img src="images/profile.jpg" class="profilepic pt-3 pb-2">
-                <div class=""><a class="menulink" href="index.html">home</a></div>
-                <div class=""><a class="menulink" href="https://sensailabs.ca">sensAILabs</a></div>
-                
-                <div class="image-container" float="left">
-                    <a class="menulink" href="https://scholar.google.ca/citations?hl=en&user=k_dZU4oAAAAJ"><img src="images/scholar.png" alt="Google Scholar"></a>
-                    <a class="menulink" href="https://www.linkedin.com/in/nczakaria/"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <a class="menulink" href="mailto:camellia.zakaria@utoronto.ca"><img src="images/email.jpg" alt="Email"></a>
-                    <a class="menulink" href="https://outlook.office365.com/calendar/published/de6c1157c40b44a582700aa6d8b555ba@utoronto.ca/cb27543546294bf68808b945b3f9bab913883127149404135948/calendar.html"><img src="images/calendar.png" alt="Calendar"></a>
-                </div>
+                    <p class="name">Camellia Zakaria</p>
+                    <div id="image-container">
+                      <img src="images/profile.jpg" alt="Image">
+                    </div>
+
+                    <div class=""><a class="menulink" href="https://sensailabs.ca">sensAILabs</a></div>
+                    <div class=""><a class="menulink" href="index.html">back to home</a></div>
+                    
+                    <div class="image-container" float="left">
+                        <a class="menulink" href="https://scholar.google.ca/citations?hl=en&user=k_dZU4oAAAAJ"><img src="images/scholar.png" alt="Google Scholar"></a>
+                        <a class="menulink" href="https://www.linkedin.com/in/nczakaria/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                        <a class="menulink" href="mailto:camellia.zakaria@utoronto.ca"><img src="images/email.jpg" alt="Email"></a>
+                        <a class="menulink" href="https://outlook.office365.com/calendar/published/de6c1157c40b44a582700aa6d8b555ba@utoronto.ca/cb27543546294bf68808b945b3f9bab913883127149404135948/calendar.html"><img src="images/calendar.png" alt="Calendar"></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8 pt-5">
-                 <p class="header pt-5">Publication</p>
+
+            <div class="col-md-8 pt-5 about">
+                <p class="header pt-5">Publication</p>
                  
                  see <a href='https://scholar.google.ca/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction' target="_blank">Google Scholar Top Publication</a> for publication ranking </br></br>
 
@@ -265,22 +283,7 @@
                     | <a class="tag" href="https://research.smu.edu.sg/news/2019/aug/19/monitoring-and-addressing-stress?utm_source=twitter_corp&utm_medium=social&utm_campaign=202007&utm_content=research2020" >link</a><span class="tagsep">| <a class="tag" href="article/monitoring-and-addressing-stress.pdf" >pdf</a><span class="tagsep">|</span>
                     </p>
                  </div>
-
-                 <!--
-                 <p class="header pt-5">Projects</p>
-                 <div class="py-2"> 
-                 <p class="paper my-2 pl-2">
-                     <span class="papertitle">STRESSMON</span>
-                     is envisioned as an ML-driven safety net to monitor stress and depression for an entire population of users. The system leverages passive WiFi information to derive group interaction features and measures the changes in an individual's behavior, including group interaction habits, by comparing their own and the population's past periods to detect stress and depression. The system has undergone three rounds of longitudinal validation among 108 college students, who regularly assessed their stress and depression using the Perceived Stress Scale (PSS) and Patient Health Questionnaire (PHQ-8). Future development of this work includes extending passive sensing capabilities to measure significant predictors of mental health, including sleep and social relationships. <br>
-                     | <a class="tag" href="https://www.youtube.com/watch?v=uRf1FaSsBdI" >Video</a><span class="tagsep">|</span>
-                 </p>
-
-                 <p class="paper my-2 pl-2">
-                     <span class="papertitle">WATCHME</span>
-                     is my first Ph.D. work, close to my heart. This work is built on sufficient progress in mobile sensing and HCI to assume that wearable devices can detect the physical movements and sounds in most problem behaviors. For example, I used the accelerometer sensor built-in commercial wearables to detect hand gestures and a microphone sensor to detect vocalizations. I hope to continue this work on building an independent behavior management tool that provides effective intervention to child users only when necessary.<br>
-                 </p>
-                </div>
-                -->
+                 
 
                 <div class="row text-center py-4">
                     <div class="mx-auto mt-2">
@@ -294,31 +297,41 @@
                         <div class="institution">UMASS Amherst</div>
                         <div class="years">2020 - 2023</div>
                     </div>
-
-                    <!--<div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-1" src="images/sutd.png">
-                        <div class="institution">SUTD</div>
-                        <div class="years">2020</div>
-                    </div>-->
                     
                     <div class="mx-auto mt-2">
                         <img class="img-fluid instilogo p-1" src="images/SIS-V_0.jpg">
                         <div class="institution">SMU</div>
                         <div class="years">2014-2019</div>
                     </div>
-
-                    <!--<div class="mx-auto mt-2">
-                        <img class="img-fluid instilogo p-1" src="images/CMU1.png">
-                        <div class="institution">CMU</div>
-                        <div class="years">2016</div>
-                    </div>-->
-                    
                 </div>
 
             </div>
-            
         </div>
     </div>
+  
+    <script>
+      const container = document.getElementById("image-container");
+      const img = container.querySelector("img");
+
+      const originalSrc = "images/profile.jpg";
+      const flashSrc = "images/todad.jpg";
+
+      let timerId = null;
+
+      container.addEventListener("click", () => {
+        // clear any running timer
+        if (timerId) clearTimeout(timerId);
+
+        // change to flash image
+        img.src = flashSrc;
+
+        // revert after 10s
+        timerId = setTimeout(() => {
+          img.src = originalSrc;
+          timerId = null;
+        }, 10000);
+      });
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -326,7 +339,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="assets/style-2.js"></script>
+
 </body>
-  <style>
-  </style>
 </html>
